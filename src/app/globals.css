@@ -3,6 +3,73 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* レトロカラーパレット - 軽やかで洗練された配色 */
+
+  /* ソフトオレンジ系 - 落ち着いたアクセント */
+  --retro-orange-50: #FEF9F6;
+  --retro-orange-100: #FDEDE2;
+  --retro-orange-200: #F8D5B8;
+  --retro-orange-300: #F3BC8E;
+  --retro-orange-400: #EDA364;
+  --retro-orange-500: #E8893F;
+  --retro-orange-600: #D77530;
+  --retro-orange-700: #B55E21;
+  --retro-orange-800: #934812;
+  --retro-orange-900: #713204;
+
+  /* ソフトティール系 - 優しい主色 */
+  --retro-teal-50: #F6F9F8;
+  --retro-teal-100: #E8F2F0;
+  --retro-teal-200: #C4DDD8;
+  --retro-teal-300: #A0C8C0;
+  --retro-teal-400: #7CB3A8;
+  --retro-teal-500: #5B9B8E;
+  --retro-teal-600: #4A8074;
+  --retro-teal-700: #39655A;
+  --retro-teal-800: #2B4A40;
+  --retro-teal-900: #1D2F26;
+
+  /* アイボリー系 - 軽やかな背景 */
+  --retro-ivory-50: #FFFFFE;
+  --retro-ivory-100: #FEFEF9;
+  --retro-ivory-200: #FDFCF0;
+  --retro-ivory-300: #FCFAE7;
+  --retro-ivory-400: #FAF8DE;
+  --retro-ivory-500: #F9F6D5;
+  --retro-ivory-600: #F5F2CA;
+  --retro-ivory-700: #F0EDBF;
+  --retro-ivory-800: #EBE8B4;
+  --retro-ivory-900: #E6E3A9;
+
+  /* ソフトマスタード系 - 控えめなアクセント */
+  --retro-mustard-50: #FEFDF8;
+  --retro-mustard-100: #FDFAEC;
+  --retro-mustard-200: #F9F0CE;
+  --retro-mustard-300: #F5E6B0;
+  --retro-mustard-400: #F1DC92;
+  --retro-mustard-500: #E6C86F;
+  --retro-mustard-600: #D9B85C;
+  --retro-mustard-700: #CCA849;
+  --retro-mustard-800: #A08537;
+  --retro-mustard-900: #746225;
+
+  /* ソフトブラウン系 - 自然な文字色 */
+  --retro-brown-50: #FDFBF8;
+  --retro-brown-100: #FAF5F0;
+  --retro-brown-200: #F0E6D7;
+  --retro-brown-300: #E6D7BE;
+  --retro-brown-400: #DCC8A5;
+  --retro-brown-500: #C4A478;
+  --retro-brown-600: #B3936A;
+  --retro-brown-700: #A2825C;
+  --retro-brown-800: #7A614B;
+  --retro-brown-900: #52403A;
+
+  /* ピュアカラー */
+  --retro-black: #000000;
+  --retro-white: #FFFFFF;
+  --retro-cream: #FFFDD0;
 }
 
 @theme inline {
@@ -10,6 +77,66 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+
+  /* レトロカラー - 画像に忠実な色 */
+  --color-retro-orange-50: var(--retro-orange-50);
+  --color-retro-orange-100: var(--retro-orange-100);
+  --color-retro-orange-200: var(--retro-orange-200);
+  --color-retro-orange-300: var(--retro-orange-300);
+  --color-retro-orange-400: var(--retro-orange-400);
+  --color-retro-orange-500: var(--retro-orange-500);
+  --color-retro-orange-600: var(--retro-orange-600);
+  --color-retro-orange-700: var(--retro-orange-700);
+  --color-retro-orange-800: var(--retro-orange-800);
+  --color-retro-orange-900: var(--retro-orange-900);
+
+  --color-retro-teal-50: var(--retro-teal-50);
+  --color-retro-teal-100: var(--retro-teal-100);
+  --color-retro-teal-200: var(--retro-teal-200);
+  --color-retro-teal-300: var(--retro-teal-300);
+  --color-retro-teal-400: var(--retro-teal-400);
+  --color-retro-teal-500: var(--retro-teal-500);
+  --color-retro-teal-600: var(--retro-teal-600);
+  --color-retro-teal-700: var(--retro-teal-700);
+  --color-retro-teal-800: var(--retro-teal-800);
+  --color-retro-teal-900: var(--retro-teal-900);
+
+  --color-retro-ivory-50: var(--retro-ivory-50);
+  --color-retro-ivory-100: var(--retro-ivory-100);
+  --color-retro-ivory-200: var(--retro-ivory-200);
+  --color-retro-ivory-300: var(--retro-ivory-300);
+  --color-retro-ivory-400: var(--retro-ivory-400);
+  --color-retro-ivory-500: var(--retro-ivory-500);
+  --color-retro-ivory-600: var(--retro-ivory-600);
+  --color-retro-ivory-700: var(--retro-ivory-700);
+  --color-retro-ivory-800: var(--retro-ivory-800);
+  --color-retro-ivory-900: var(--retro-ivory-900);
+
+  --color-retro-mustard-50: var(--retro-mustard-50);
+  --color-retro-mustard-100: var(--retro-mustard-100);
+  --color-retro-mustard-200: var(--retro-mustard-200);
+  --color-retro-mustard-300: var(--retro-mustard-300);
+  --color-retro-mustard-400: var(--retro-mustard-400);
+  --color-retro-mustard-500: var(--retro-mustard-500);
+  --color-retro-mustard-600: var(--retro-mustard-600);
+  --color-retro-mustard-700: var(--retro-mustard-700);
+  --color-retro-mustard-800: var(--retro-mustard-800);
+  --color-retro-mustard-900: var(--retro-mustard-900);
+
+  --color-retro-brown-50: var(--retro-brown-50);
+  --color-retro-brown-100: var(--retro-brown-100);
+  --color-retro-brown-200: var(--retro-brown-200);
+  --color-retro-brown-300: var(--retro-brown-300);
+  --color-retro-brown-400: var(--retro-brown-400);
+  --color-retro-brown-500: var(--retro-brown-500);
+  --color-retro-brown-600: var(--retro-brown-600);
+  --color-retro-brown-700: var(--retro-brown-700);
+  --color-retro-brown-800: var(--retro-brown-800);
+  --color-retro-brown-900: var(--retro-brown-900);
+
+  --color-retro-black: var(--retro-black);
+  --color-retro-white: var(--retro-white);
+  --color-retro-cream: var(--retro-cream);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +147,114 @@
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--retro-ivory-50);
+  color: var(--retro-brown-700);
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+}
+
+/* カレンダー用の追加スタイル */
+.calendar-container {
+  background: var(--retro-white);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--retro-ivory-300);
+}
+
+.calendar-header {
+  background: var(--retro-teal-400);
+  color: var(--retro-white);
+}
+
+.day-cell {
+  background: var(--retro-white);
+  border: 1px solid var(--retro-ivory-300);
+  transition: all 0.2s ease;
+}
+
+.day-cell:hover {
+  background: var(--retro-ivory-100);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.event-card {
+  background: linear-gradient(135deg, var(--retro-orange-100), var(--retro-orange-200));
+  border-left: 4px solid var(--retro-orange-500);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+}
+
+.event-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.attendee-badge {
+  background: var(--retro-mustard-200);
+  color: var(--retro-brown-700);
+  border: 1px solid var(--retro-mustard-400);
+}
+
+.btn-primary {
+  background: var(--retro-orange-400);
+  color: var(--retro-white);
+  border: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.15s ease;
+}
+
+.btn-primary:hover {
+  background: var(--retro-orange-500);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.btn-secondary {
+  background: linear-gradient(to bottom, var(--retro-teal-400), var(--retro-teal-500));
+  color: var(--retro-white);
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.btn-secondary:hover {
+  background: linear-gradient(to bottom, var(--retro-teal-500), var(--retro-teal-600));
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.modal-backdrop {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(4px);
+}
+
+.modal-content {
+  background: linear-gradient(to bottom, var(--retro-ivory-50), var(--retro-ivory-100));
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+/* 時間グリッドのスタイル */
+.time-grid {
+  background: linear-gradient(to bottom, var(--retro-ivory-50) 0%, var(--retro-ivory-100) 100%);
+}
+
+.time-slot {
+  border-bottom: 1px solid var(--retro-ivory-300);
+}
+
+.time-slot:nth-child(6n) {
+  border-bottom: 2px solid var(--retro-brown-200);
+}
+
+/* アニメーション */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 0.3s ease-out;
 }

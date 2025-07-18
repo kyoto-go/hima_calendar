@@ -1,0 +1,58 @@
+version: '3'
+
+tasks:
+  # Default task - start development server
+  default:
+    desc: "Start development server"
+    cmds:
+      - npm run dev
+
+  # Development tasks
+  dev:
+    desc: "Start development server"
+    cmds:
+      - npm run dev
+
+  build:
+    desc: "Build for production"
+    cmds:
+      - npm run build
+
+  start:
+    desc: "Start production server"
+    cmds:
+      - npm run start
+
+  lint:
+    desc: "Run ESLint checks"
+    cmds:
+      - npm run lint
+
+  # Claude Code tasks
+  claude:
+    desc: "Start Claude Code session"
+    cmds:
+      - claude
+
+  cc:
+    desc: "Start Claude Code session (short alias)"
+    cmds:
+      - claude
+
+  # Usage tracking
+  usage:
+    desc: "Show Claude usage (daily)"
+    cmds:
+      - ccusage daily
+
+  ccusage:
+    desc: "Show Claude usage (daily)"
+    cmds:
+      - ccusage daily
+
+  # Combined tasks
+  dev-with-claude:
+    desc: "Start dev server and Claude Code session"
+    deps: [dev]
+    cmds:
+      - claude
